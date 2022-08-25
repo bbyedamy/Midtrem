@@ -1,13 +1,21 @@
 {
-  "name": "nv-webblog-server",
+  "name": "273372_1-65_midterm",
   "version": "1.0.0",
-  "description": "nodejs vuejs webblog server (back end)",
-  "main": "src/app.ja",
+  "description": "25 คะแนน (25%)\r 1. (5 คะแนน) ให้พัฒนาโปแกรม CRUD โดยต่อยอดจาก GitHub repo ที่ผมขึ้นต้นไว้ให้ โดย ให้ทุกคน Fork โปรเจคของผม ที่นี่\r https://github.com/nattaponkum/273372_1-65_Midterm\r ไปไว้ใน repo ของตนเอง",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "nattapon kumyaito",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattaponkum/273372_1-65_Midterm.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nattaponkum/273372_1-65_Midterm/issues"
+  },
+  "homepage": "https://github.com/nattaponkum/273372_1-65_Midterm#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.18.1"

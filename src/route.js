@@ -4,7 +4,7 @@ const UserController = require('./controllers/UserController')
 module.exports = (app) => {
     app.post('/user', UserController.create)
     
-    app.put('/user', UserController.put)
+    app.put('/app1', UserController.put)
     
     app.delete('/user', UserController.remove)
     
@@ -12,6 +12,6 @@ module.exports = (app) => {
     
     app.get('/users', UserController.index)
 
-    app.post('/add1', Midterm.add1)
+    app.post('/app1', Midterm.app1)
 
 }
